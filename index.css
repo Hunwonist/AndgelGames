@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+#contents {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+
+.img-cover {
+  position: absolute;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.icon {
+  vertical-align: text-bottom;
+}
+
+.transparent-button {
+  background-color: transparent;
+  border: 0px;
+}
+
+.back {
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  right: 0;
+  transform: translate(-50%);
+}
